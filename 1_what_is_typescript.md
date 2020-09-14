@@ -15,20 +15,20 @@
 1.安装 `TypeScript`
 
 ```bash
-➜ yarn global add typescript (npm install -g typescript)
+$ yarn global add typescript (npm install -g typescript)
 ```
 
 2.查看版本号
 
 ```
-➜ tsc -v
+$ tsc -v
 Version 4.0.2
 ```
 
 3.编译 `TypeScript` 文件 
 
 ```
-➜ tsc test.ts # 生成 test.js 文件
+$ tsc test.ts # 生成 test.js 文件
 ```
 
 ### `TypeScript` Playground
@@ -39,7 +39,7 @@ Version 4.0.2
 
 ## TypeScript 初体验
 
-新建 `.ts` 文件 [test.ts](./example1_what_is_typescript/test.ts)，并输入如下代码
+新建 `.ts` 文件 [test.ts](example/1_what_is_typescript/test.ts)，并输入如下代码
 
 ```typescript
 function getAppName(app: string): string {
@@ -64,4 +64,4 @@ function getAppName(app) {
 console.log(getAppName('typescript'));
 ```
 
-生成的 [`test.js`](./example1_what_is_typescript/test.js) 文件的类型被擦除，TypeScript 只会在编译阶段对类型进行静态检查，发现错误，及时报错。编译后就是普通的 `JavaScript` 代码。
+生成的 [`test.js`](example/1_what_is_typescript/test.js) 文件的类型被擦除，TypeScript 只会在编译阶段对类型进行静态检查，发现错误，及时报错。编译后就是普通的 `JavaScript` 代码。
