@@ -2,7 +2,7 @@
 
 ## 目录
 
-- [ ] [一、`TypeScript` 定义](1_what_is_typescript.md)
+- [x] [一、`TypeScript` 定义](1_what_is_typescript.md)
 - [ ] [二、`TypeScript` 基本类型](2_typescript_base.md)
 - [ ] [三、`TypeScript` 类型断言](3_type_asset.md)
 - [ ] [四、`TypeScript` 类型守卫](4_type_guard.md)
