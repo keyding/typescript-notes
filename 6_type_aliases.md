@@ -1,0 +1,1 @@
+# `TypeScript` 类型别名
